@@ -10,14 +10,14 @@ if sys.version_info[0] < 3:
    input = raw_input
 
 ## Twitter credentials
-consumer_key = "R20fBnOBDSLS3qw0KjibUkHIm"
-consumer_secret = "ecEWX4u2sYAfMVu6lsxtsxNIBNephj25F6qlzmjScbOU95GLw4"
-access_token = "1056064395468570624-OyRjJytT32STksiyZbTG1Yln2c3JIX"
-access_token_secret = "sf5cnzgeywx1zntFN3OtNQZ4DBNl7J4nfdLM6sQjG5VXy"
+consumer_key = "*******************"
+consumer_secret = "**************************"
+access_token = "*******************"
+access_token_secret = "*************************"
 
 ## AYLIEN credentials
-application_id = "72195e3e"
-application_key = "01b2ac8a9ab2479b44134ee5f4ca8d97"
+application_id = "**********"
+application_key = "**********************"
 
 ## set up an instance of Tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
